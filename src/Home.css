@@ -1,0 +1,55 @@
+ #Hdefault {
+     border-radius: 10px;
+     background-color: white;
+     padding: 15px;
+     height: 230px;
+     width: 300px;
+     margin: 20px 10px 10px 10px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 30px;
+ }
+
+ .HsavedNotes {
+     border-radius: 10px;
+     background-color: white;
+     padding: 15px;
+     height: 230px;
+     width: 300px;
+     overflow: hidden;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+     user-select: text;
+     margin: 0 10px 0 0;
+ }
+ .HsavedNotes h4{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #Hcards {
+     display: flex;
+     flex-direction: row;
+     overflow: auto;
+     margin: 15px 0 10px 0;
+     flex-wrap: wrap;
+ }
+
+ #HTaskBox {
+     background-color: white;
+     height: 412px;
+     border-radius: 15px;
+     overflow: auto;
+     padding: 20px 20px;
+     box-shadow: rgba(212, 202, 202, 0.15) 0px 5px 15px 0px;
+ }
+
+ .HsavedTask {
+     margin: 20px 0;
+     border-radius: 5px;
+     padding: 4px 20px 0px 20px;
+     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+     display: flex;
+ }

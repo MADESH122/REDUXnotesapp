@@ -1,0 +1,44 @@
+#TaskBox {
+    background-color: white;
+    height: 412px;
+    border-radius: 15px;
+    overflow: auto;
+    padding: 20px 20px;
+    box-shadow: rgba(212, 202, 202, 0.15) 0px 5px 15px 0px;
+}
+
+.savedTask {
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 4px 20px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+}
+
+.checkbox{
+    display: flex;
+    align-items:center;
+    margin: 0 30px  0  0 ;
+}
+.teaklist h5{
+    margin: 10px 0 0 0;
+}
+ 
+#recentnotes{
+    margin-bottom: 43px;
+}
+
+#defaultTask{
+    background-color: white;
+    height: 412px;
+    width: 99%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    overflow: auto;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    font-size: 30px;
+}

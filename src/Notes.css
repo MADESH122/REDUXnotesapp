@@ -1,0 +1,112 @@
+#body {
+    background: rgb(207, 224, 255);
+    user-select: none;
+    height: 100%;
+}
+
+#time {
+    background: rgb(207, 224, 255);
+    padding: 7px;
+    width: 180px;
+    border-radius: 10px;
+}
+
+#inputbox {
+    background: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 40px 0;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: rgb(16, 16, 61);
+}
+
+#inputbox .col-md-12 {
+    margin: 15px;
+}
+
+#inputbox .col-md-12 input {
+    outline: none;
+    border: none;
+    font-size: 25px;
+    background: whitesmoke;
+}
+
+#recentnotes {
+    padding-bottom: 40px;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+
+#headingbtn {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(27, 27, 71);
+    margin: 5px 0 15px 0;
+}
+
+#headingbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#headingbtn button {
+    border: none;
+    background-color: rgb(27, 27, 71);
+    color: white;
+    margin: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 7px;
+}
+
+#headingbtn button:hover {
+    opacity: 0.9;
+}
+
+/* -----------saved notes-------------- */
+#cards {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin: 15px 0 180px 0;
+    flex-wrap: wrap;
+
+}
+
+.savedNotes {
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    height: 230px;
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    user-select: text;
+}
+
+.savedNotes h4 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#default {
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    height: 230px;
+    width: 300px;
+    margin: 20px 10px 190px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

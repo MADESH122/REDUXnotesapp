@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Achived {
+  color: rgb(20, 20, 41);
+  padding: 10px;
+  margin: 0 0 885px 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Binpage {
+  color: rgb(20, 20, 41);
+  padding: 10px;
+  margin: 0 0 885px 0;
+}
+
+.Searchpage {
+  color: rgb(20, 20, 41);
+  padding: 10px;
+  margin: 0 0 885px 0;
+}
+
+.username {
+  display: flex;
+  color: rgb(23, 23, 53);
+}
+
+.username i {
+  font-size: 40px;
+}
+
+.username div {
+  margin: 15px 0 0 15px;
 }
